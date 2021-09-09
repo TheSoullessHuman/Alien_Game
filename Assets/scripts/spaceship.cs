@@ -74,7 +74,8 @@ public class spaceship : MonoBehaviour
 
                 if (Count > 0)
                 {
-                  StartCoroutine(SloMo());  
+                  StartCoroutine(SloMo()); 
+                    //colocar el destroy aqui
                 }
 
             }

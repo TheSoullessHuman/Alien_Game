@@ -7,7 +7,7 @@ public class Animals : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] bool moveright;
     float minX, maxX;
-    int lifePoints = 5;
+    [SerializeField] int lifePoints;
 
     // Start is called before the first frame update
     void Start()
