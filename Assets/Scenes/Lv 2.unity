@@ -471,6 +471,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048775, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
       propertyPath: m_Name
@@ -549,6 +554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -898,6 +908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -1572,6 +1587,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dog (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
       propertyPath: m_RootOrder
@@ -1645,6 +1665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -1989,6 +2014,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
       propertyPath: m_Name
@@ -2214,6 +2244,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048775, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
       propertyPath: m_Name
@@ -2275,6 +2310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -2643,6 +2683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -3410,6 +3455,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
       propertyPath: m_Name
@@ -3569,6 +3619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -3823,6 +3878,9 @@ MonoBehaviour:
   disparador: {fileID: 1800349903}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
   fireRate: 0.8
+  SlowMotion: 0
+  secondsLeft: 5
+  takingAway: 0
 --- !u!212 &1651590445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4420,6 +4478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}

@@ -527,6 +527,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048771, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
       propertyPath: m_Material
@@ -546,6 +551,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -836,6 +846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048771, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
@@ -2049,6 +2064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -2462,6 +2482,9 @@ MonoBehaviour:
   disparador: {fileID: 758425843}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
   fireRate: 0.8
+  SlowMotion: 0
+  secondsLeft: 5
+  takingAway: 0
 --- !u!1 &1121871872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3463,6 +3486,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -4122,6 +4150,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3402030979761948716, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.29949558
+      objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948717, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
       propertyPath: m_Name
@@ -4131,6 +4164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -4196,6 +4234,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -4270,6 +4313,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3402030979761948716, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.29949558
+      objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948717, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
       propertyPath: m_Name
@@ -4279,6 +4327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -4492,6 +4545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048771, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}

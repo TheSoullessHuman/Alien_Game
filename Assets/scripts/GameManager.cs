@@ -92,7 +92,8 @@ public class GameManager : MonoBehaviour
 
     public void CaptureAnimal ()
     {
-        NumAnimals = NumAnimals - 1;
+        NumAnimals = NumAnimals-1;
+
         if (NumAnimals < 1) 
         {
             Time.timeScale = 0;

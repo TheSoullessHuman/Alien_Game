@@ -153,6 +153,8 @@ public class spaceship : MonoBehaviour
         secondsLeft -= 1;
         takingAway = false;
         Time.timeScale = 1;
+
+        // agregar destroy all objects 
     }
 
 

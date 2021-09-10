@@ -156,6 +156,9 @@ MonoBehaviour:
   disparador: {fileID: 458231019}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
   fireRate: 0.8
+  SlowMotion: 0
+  secondsLeft: 5
+  takingAway: 0
 --- !u!212 &18886753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -364,6 +367,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048775, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
       propertyPath: m_Name
@@ -555,6 +563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5714967182108982270, guid: 134dcdc302ce1ca449fe9f83b79b1639,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5714967182108982271, guid: 134dcdc302ce1ca449fe9f83b79b1639,
         type: 3}
       propertyPath: m_RootOrder
@@ -673,6 +686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048775, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
@@ -931,6 +949,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
       propertyPath: m_Name
@@ -1026,6 +1049,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1378,6 +1406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5714967182108982270, guid: 134dcdc302ce1ca449fe9f83b79b1639,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5714967182108982271, guid: 134dcdc302ce1ca449fe9f83b79b1639,
         type: 3}
       propertyPath: m_RootOrder
@@ -1446,6 +1479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714967182108982270, guid: 134dcdc302ce1ca449fe9f83b79b1639,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5714967182108982271, guid: 134dcdc302ce1ca449fe9f83b79b1639,
         type: 3}
@@ -1734,6 +1772,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7409914651415872890, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
       propertyPath: m_Name
@@ -1748,6 +1791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1898,6 +1946,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804705, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: m_RootOrder
@@ -2077,6 +2130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -2490,6 +2548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chicken (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714967182108982270, guid: 134dcdc302ce1ca449fe9f83b79b1639,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5714967182108982271, guid: 134dcdc302ce1ca449fe9f83b79b1639,
         type: 3}
@@ -3743,6 +3806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dog (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
       propertyPath: m_RootOrder
@@ -3816,6 +3884,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: lifePoints
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948881, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
