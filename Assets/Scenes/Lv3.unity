@@ -3616,7 +3616,7 @@ PrefabInstance:
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}
       propertyPath: NumAnimals
-      value: 42
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}

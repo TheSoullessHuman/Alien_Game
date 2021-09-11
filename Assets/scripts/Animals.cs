@@ -70,12 +70,22 @@ public class Animals : MonoBehaviour
         string etiqueta = collision.gameObject.tag;
 
 
+
+        //if (collision.gameObject.CompareTag("Disparo") )
+        //{
+        //    (GameObject.Find("GameManager").GetComponent<GameManager>()).CaptureAnimal();
+        //    int puntos = collision.gameObject.GetComponent<Bullet>().darDamagePoints();
+        //  lifePoints = lifePoints - puntos;
+
+        //if (lifePoints < 1 )
+        //  Destroy(this.gameObject);
+        // }
         if (collision.gameObject.CompareTag("Disparo"))
         {
-            int puntos = collision.gameObject.GetComponent<Bullet>().darDamagePoints();
             GameObject gm = GameObject.Find("GameManager");
+            (GameObject.Find("GameManager").GetComponent<GameManager>()).CaptureAnimal();
+            int puntos = collision.gameObject.GetComponent<Bullet>().darDamagePoints();
             GameManager script = gm.GetComponent<GameManager>();
-            script.CaptureAnimal();
             lifePoints = lifePoints - puntos;
 
             if (lifePoints < 1) 
@@ -87,5 +97,7 @@ public class Animals : MonoBehaviour
         }
 
     }
+
+    //private int Multiplicar(int A, int B, int C)
   
 }
