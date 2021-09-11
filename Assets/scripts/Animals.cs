@@ -7,7 +7,10 @@ public class Animals : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] bool moveright;
     float minX, maxX;
-    [SerializeField] int lifePoints;
+    [SerializeField] public int lifePoints;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -69,17 +72,6 @@ public class Animals : MonoBehaviour
         //tag, se destruye lo que toque la bala
         string etiqueta = collision.gameObject.tag;
 
-
-
-        //if (collision.gameObject.CompareTag("Disparo") )
-        //{
-        //    (GameObject.Find("GameManager").GetComponent<GameManager>()).CaptureAnimal();
-        //    int puntos = collision.gameObject.GetComponent<Bullet>().darDamagePoints();
-        //  lifePoints = lifePoints - puntos;
-
-        //if (lifePoints < 1 )
-        //  Destroy(this.gameObject);
-        // }
         if (collision.gameObject.CompareTag("Disparo"))
         {
             GameObject gm = GameObject.Find("GameManager");
@@ -88,11 +80,12 @@ public class Animals : MonoBehaviour
             GameManager script = gm.GetComponent<GameManager>();
             lifePoints = lifePoints - puntos;
 
-            if (lifePoints < 1) 
-            { 
+
+            if (lifePoints < 1)
+            {
+                
                 Destroy(this.gameObject);
             }
-               
 
         }
 

@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}
       propertyPath: NumAnimals
-      value: 12
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}
@@ -473,6 +473,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
+      propertyPath: Points
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
       propertyPath: lifePoints
       value: 2
       objectReference: {fileID: 0}
@@ -554,6 +559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -908,6 +918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -1589,6 +1604,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
+      propertyPath: Points
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
       propertyPath: lifePoints
       value: 2
       objectReference: {fileID: 0}
@@ -1665,6 +1685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -2016,6 +2041,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
+      propertyPath: Points
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
       propertyPath: lifePoints
       value: 2
       objectReference: {fileID: 0}
@@ -2246,6 +2276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
+      propertyPath: Points
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
       propertyPath: lifePoints
       value: 2
       objectReference: {fileID: 0}
@@ -2310,6 +2345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -2683,6 +2723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
@@ -3457,6 +3502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
+      propertyPath: Points
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
       propertyPath: lifePoints
       value: 2
       objectReference: {fileID: 0}
@@ -3619,6 +3669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 207099359389958690, guid: 6aaebf3ce479a6345867541946ebedb4,
         type: 3}
@@ -4478,6 +4533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: Points
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}

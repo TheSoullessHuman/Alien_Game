@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class spaceship : MonoBehaviour
@@ -7,6 +8,7 @@ public class spaceship : MonoBehaviour
     [SerializeField] GameObject bala;
     [SerializeField] GameObject disparador;
     [SerializeField] GameObject BalaR;
+    [SerializeField] GameObject BalaLenta;
     [SerializeField] float fireRate;
     [SerializeField] int SlowMotion;
 
@@ -14,12 +16,14 @@ public class spaceship : MonoBehaviour
     public bool takingAway = false;
     int Count = 4;
 
-
     float minX, maxX, minY, maxY;
     float nextFire = 0;
     //float VelocidadDisparo = 0.25f;
     float nextRafaga = 0;
     bool cambiarBala = true;
+    bool Lentoo = true; 
+    float nextLento = 0;
+
 
 
     // Start is called before the first frame update
@@ -51,6 +55,11 @@ public class spaceship : MonoBehaviour
             Disparar();
         }
 
+        else if (Lentoo) 
+        {
+            DispararLento();
+        }
+
         else
             DispararRafaga();
 
@@ -68,28 +77,22 @@ public class spaceship : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
+
+
             if (takingAway == false && secondsLeft > 0)
             {
                     Count --;
 
                 if (Count > 0)
                 {
-                  StartCoroutine(SloMo()); 
-                    //colocar el destroy aqui
+                  StartCoroutine(SloMo());
                 }
 
             }
         }  //slow motion
 
     }
-    void DispararRafaga()
-    {
-        if (Input.GetKey(KeyCode.Space) && Time.time >= nextRafaga)
-        {
-            Instantiate(BalaR, disparador.transform.position, transform.rotation);
-            nextRafaga = Time.time + (fireRate / 4);
-        }
-    }
+   
     void MoverNave()
     {
         float movH = Input.GetAxis("Horizontal");
@@ -140,12 +143,24 @@ public class spaceship : MonoBehaviour
             nextFire = Time.time + fireRate;
 
         }
-
-
     }
-
-
-    IEnumerator SloMo()
+    void DispararRafaga()
+    {
+        if (Input.GetKey(KeyCode.Space) && Time.time >= nextRafaga)
+        {
+            Instantiate(BalaR, disparador.transform.position, transform.rotation);
+            nextRafaga = Time.time + (fireRate / 4);
+        }
+    }
+    void DispararLento()
+    {
+        if (Input.GetKey(KeyCode.Space) && Time.time >= nextLento)
+        {
+            Instantiate(BalaLenta, disparador.transform.position, transform.rotation);
+            nextLento = Time.time + fireRate;
+        }
+    }
+    public IEnumerator SloMo()
     {
         takingAway = true;
         Time.timeScale = 0.3f;

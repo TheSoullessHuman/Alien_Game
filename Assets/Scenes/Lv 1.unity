@@ -529,6 +529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
+      propertyPath: Points
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
       propertyPath: lifePoints
       value: 1
       objectReference: {fileID: 0}
@@ -551,6 +556,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
+      propertyPath: Points
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
       propertyPath: lifePoints
@@ -846,6 +856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
+        type: 3}
+      propertyPath: Points
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6787859876363048770, guid: 314d4bb3d19bdec479429126a2ae3c10,
         type: 3}
@@ -2066,6 +2081,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
+      propertyPath: Points
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
       propertyPath: lifePoints
       value: 1
       objectReference: {fileID: 0}
@@ -2481,6 +2501,8 @@ MonoBehaviour:
   bala: {fileID: 6591310594087831088, guid: 6f1147978cce14a4ebb3a988d8f9a44b, type: 3}
   disparador: {fileID: 758425843}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
+  BalaLenta: {fileID: 8004839479058526900, guid: 8dffff881cb00044182717c3efcbf95c,
+    type: 3}
   fireRate: 0.8
   SlowMotion: 0
   secondsLeft: 5
@@ -3488,6 +3510,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
         type: 3}
+      propertyPath: Points
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 724735253153804704, guid: a99aebc471263ee44b2867ce93985bdf,
+        type: 3}
       propertyPath: lifePoints
       value: 1
       objectReference: {fileID: 0}
@@ -4164,6 +4191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
+        type: 3}
+      propertyPath: Points
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3402030979761948880, guid: 66789ab33a807a84188e8c4be8ac9727,
         type: 3}
