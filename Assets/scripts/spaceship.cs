@@ -77,7 +77,7 @@ public class spaceship : MonoBehaviour
             //cambiarBala = cambiarBala ? false : true;
         }  //rafaga
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.E))
         {
                 if (takingAway == false  && Time.timeScale == 1)
                 {
@@ -133,7 +133,7 @@ public class spaceship : MonoBehaviour
     }
     void DispararLento()
     {
-        if (Input.GetKeyDown(KeyCode.C) && Time.time >= nextLento)
+        if (Input.GetKeyDown(KeyCode.R) && Time.time >= nextLento)
         {
             Instantiate(BalaLenta, disparador.transform.position, transform.rotation);
             nextLento = Time.time + (fireRate / 3);
