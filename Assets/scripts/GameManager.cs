@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject GameOverMenu;
     [SerializeField] GameObject NextLevel;
 
-    [SerializeField] int NumAnimals;
+    [SerializeField] public int NumAnimals;
 
     public int currentSceneIndex;
 

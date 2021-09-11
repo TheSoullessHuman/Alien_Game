@@ -136,7 +136,7 @@ public class spaceship : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && Time.time >= nextLento)
         {
             Instantiate(BalaLenta, disparador.transform.position, transform.rotation);
-            nextLento = Time.time + (fireRate / 3);
+            nextLento = Time.time + (fireRate / 4);
         }
     }
     void Disparar()
@@ -169,7 +169,7 @@ public class spaceship : MonoBehaviour
         {
            timer -= Time.deltaTime; 
            Time.timeScale = 0.3f;
-             if (Input.GetKeyDown(KeyCode.C))
+             if (Input.GetKeyDown(KeyCode.R))
              {
                  DispararBala = false;
                  DispararLento();

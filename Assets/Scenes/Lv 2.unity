@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}
       propertyPath: NumAnimals
-      value: 24
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4593116171139330791, guid: df61b058dd7878a46a80dae4f7e34817,
         type: 3}
@@ -3932,7 +3932,8 @@ MonoBehaviour:
   bala: {fileID: 6591310594087831088, guid: 6f1147978cce14a4ebb3a988d8f9a44b, type: 3}
   disparador: {fileID: 1800349903}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
-  BalaLenta: {fileID: 0}
+  BalaLenta: {fileID: 8004839479058526900, guid: 8dffff881cb00044182717c3efcbf95c,
+    type: 3}
   fireRate: 0.8
   SlowMotion: 0
   secondsLeft: 5
