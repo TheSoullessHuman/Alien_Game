@@ -82,7 +82,7 @@ public class spaceship : MonoBehaviour
         }  //slow motion
 
     }
-    void DispararRafaga()
+    public void DispararRafaga()
     {
         if (Input.GetKey(KeyCode.Space) && Time.time >= nextRafaga)
         {
@@ -129,7 +129,7 @@ public class spaceship : MonoBehaviour
 
 
     }
-    void Disparar()
+    public void Disparar()
     {
         //Time.time
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFire)
@@ -140,10 +140,7 @@ public class spaceship : MonoBehaviour
             nextFire = Time.time + fireRate;
 
         }
-
-
     }
-
 
     IEnumerator SloMo()
     {
@@ -156,7 +153,5 @@ public class spaceship : MonoBehaviour
 
         // agregar destroy all objects 
     }
-
-
 
 }

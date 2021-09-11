@@ -25,7 +25,6 @@ public class Bullet : MonoBehaviour
     public int darDamagePoints()
     {
         return damagePoints;
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

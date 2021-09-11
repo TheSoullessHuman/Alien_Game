@@ -92,8 +92,7 @@ public class GameManager : MonoBehaviour
 
     public void CaptureAnimal ()
     {
-        NumAnimals = NumAnimals-1;
-
+        NumAnimals = NumAnimals - 1;
         if (NumAnimals < 1) 
         {
             Time.timeScale = 0;
@@ -104,8 +103,4 @@ public class GameManager : MonoBehaviour
 
 }
 //bugs
-//1. los animales se detienen si pierdes la partida, no se mueven 
 //2. puntos, si cae al suelo una bala o etc se va a game over
-//3. se va a game over si llega a cierta cantidad de puntos
-//4. los animales se vuelven locos si una bala los toca
-//5. despues de reiniciar el nivel, la escena queda estatica.
