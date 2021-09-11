@@ -79,11 +79,11 @@ public class Animals : MonoBehaviour
             int puntos = collision.gameObject.GetComponent<Bullet>().darDamagePoints();
             GameManager script = gm.GetComponent<GameManager>();
             lifePoints = lifePoints - puntos;
+       
 
 
             if (lifePoints < 1)
             {
-                
                 Destroy(this.gameObject);
             }
 

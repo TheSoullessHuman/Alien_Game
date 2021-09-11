@@ -2073,7 +2073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &783098989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3932,6 +3932,7 @@ MonoBehaviour:
   bala: {fileID: 6591310594087831088, guid: 6f1147978cce14a4ebb3a988d8f9a44b, type: 3}
   disparador: {fileID: 1800349903}
   BalaR: {fileID: 255483055082932738, guid: 166458dd3cc2e9b4db3d79971d42ad9b, type: 3}
+  BalaLenta: {fileID: 0}
   fireRate: 0.8
   SlowMotion: 0
   secondsLeft: 5

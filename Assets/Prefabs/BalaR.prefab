@@ -134,4 +134,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveright: 0
-  damagePoints: 0
+  damagePoints: 1

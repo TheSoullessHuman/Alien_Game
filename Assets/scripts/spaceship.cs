@@ -12,19 +12,18 @@ public class spaceship : MonoBehaviour
     [SerializeField] float fireRate;
     [SerializeField] int SlowMotion;
 
+
     public int secondsLeft = 5;
     public bool takingAway = false;
     int Count = 4;
 
     float minX, maxX, minY, maxY;
     float nextFire = 0;
-    //float VelocidadDisparo = 0.25f;
     float nextRafaga = 0;
     bool cambiarBala = true;
-    bool Lentoo = true;
-    bool Rafaga = true;
+    bool DispararBala = true;
     float nextLento = 0;
-
+    float startTime = 1f;
 
 
     // Start is called before the first frame update
@@ -51,24 +50,22 @@ public class spaceship : MonoBehaviour
     void Update()
     {
         MoverNave();
-        if (cambiarBala)
+
+        if (DispararBala)
         {
-            Disparar();
+            if (cambiarBala)
+            {
+                Disparar();
+            }
+
+            else
+            {
+                DispararRafaga();
+            }
+
         }
 
-        else if (Rafaga)
-        { 
-            DispararRafaga();
-        }
-
-        if (Time.timeScale == 0.3f)
-        {
-            DispararLento();
-        }
-        
-           
-
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (cambiarBala)
             {
@@ -82,22 +79,19 @@ public class spaceship : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-
-
-            if (takingAway == false && secondsLeft > 0)
-            {
-                    Count --;
-
-                if (Count > 0)
+                if (takingAway == false  && Time.timeScale == 1)
                 {
-                  StartCoroutine(SloMo());
-                }
+                    Count--;
 
-            }
+                    if (Count > 0)
+                    {
+                        StartCoroutine(SloMo());
+                    }
+                }
         }  //slow motion
 
     }
-   
+
     void MoverNave()
     {
         float movH = Input.GetAxis("Horizontal");
@@ -137,6 +131,14 @@ public class spaceship : MonoBehaviour
 
 
     }
+    void DispararLento()
+    {
+        if (Input.GetKeyDown(KeyCode.C) && Time.time >= nextLento)
+        {
+            Instantiate(BalaLenta, disparador.transform.position, transform.rotation);
+            nextLento = Time.time + (fireRate / 3);
+        }
+    }
     void Disparar()
     {
         //Time.time
@@ -157,26 +159,33 @@ public class spaceship : MonoBehaviour
             nextRafaga = Time.time + (fireRate / 4);
         }
     }
-    void DispararLento()
-    {
-        if (Input.GetKey(KeyCode.Space) && Time.time >= nextLento)
-        {
-            Instantiate(BalaLenta, disparador.transform.position, transform.rotation);
-            nextLento = Time.time + fireRate;
-        }
-    }
-    public IEnumerator SloMo()
+  
+    private IEnumerator SloMo()
     {
         takingAway = true;
-        Time.timeScale = 0.3f;
-        yield return new WaitForSeconds(1);
-        secondsLeft -= 1;
+        float timer = startTime;
+
+        do
+        {
+           timer -= Time.deltaTime; 
+           Time.timeScale = 0.3f;
+             if (Input.GetKeyDown(KeyCode.C))
+             {
+                 DispararBala = false;
+                 DispararLento();
+             }
+
+            yield return null;
+        }
+        while (timer > 0);
+
+        //secondsLeft -= 1;
         takingAway = false;
         Time.timeScale = 1;
+        DispararBala = true;
 
         // agregar destroy all objects 
     }
-
 
 
 }
