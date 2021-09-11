@@ -21,7 +21,8 @@ public class spaceship : MonoBehaviour
     //float VelocidadDisparo = 0.25f;
     float nextRafaga = 0;
     bool cambiarBala = true;
-    bool Lentoo = true; 
+    bool Lentoo = true;
+    bool Rafaga = true;
     float nextLento = 0;
 
 
@@ -55,13 +56,17 @@ public class spaceship : MonoBehaviour
             Disparar();
         }
 
-        else if (Lentoo) 
+        else if (Rafaga)
+        { 
+            DispararRafaga();
+        }
+
+        if (Time.timeScale == 0.3f)
         {
             DispararLento();
         }
-
-        else
-            DispararRafaga();
+        
+           
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
